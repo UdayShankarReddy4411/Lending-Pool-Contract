@@ -1,0 +1,15 @@
+[package]
+name = "Lending-Pool-Contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Uday_addr = "0x7f5f5143bd1da244c8ef233071dc93666cff51ac5dca52ef17d53eaf82ab20ce"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
